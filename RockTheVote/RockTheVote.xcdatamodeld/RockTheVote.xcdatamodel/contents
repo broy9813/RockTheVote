@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RockTheVote" representedClassName="RockTheVote" syncable="YES" codeGenerationType="class">
+        <attribute name="songTitle" attributeType="String"/>
+        <attribute name="vote" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="voterName" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="RockTheVote" positionX="-54" positionY="-9" width="128" height="88"/>
+    </elements>
 </model>

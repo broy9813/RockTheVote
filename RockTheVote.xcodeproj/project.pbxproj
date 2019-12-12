@@ -14,6 +14,8 @@
 		30008E3B23A27DFB00E67D86 /* RockTheVote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30008E3923A27DFB00E67D86 /* RockTheVote.xcdatamodeld */; };
 		30008E3D23A27DFC00E67D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30008E3C23A27DFC00E67D86 /* Assets.xcassets */; };
 		30008E4023A27DFC00E67D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30008E3E23A27DFC00E67D86 /* LaunchScreen.storyboard */; };
+		30008E4823A27EAD00E67D86 /* NewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30008E4723A27EAD00E67D86 /* NewTableViewController.swift */; };
+		30008E4A23A2808100E67D86 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30008E4923A2808100E67D86 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		30008E3C23A27DFC00E67D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30008E3F23A27DFC00E67D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30008E4123A27DFC00E67D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30008E4723A27EAD00E67D86 /* NewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewController.swift; sourceTree = "<group>"; };
+		30008E4923A2808100E67D86 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				30008E3E23A27DFC00E67D86 /* LaunchScreen.storyboard */,
 				30008E4123A27DFC00E67D86 /* Info.plist */,
 				30008E3923A27DFB00E67D86 /* RockTheVote.xcdatamodeld */,
+				30008E4723A27EAD00E67D86 /* NewTableViewController.swift */,
+				30008E4923A2808100E67D86 /* NewViewController.swift */,
 			);
 			path = RockTheVote;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30008E4823A27EAD00E67D86 /* NewTableViewController.swift in Sources */,
 				30008E3523A27DFB00E67D86 /* ViewController.swift in Sources */,
 				30008E3123A27DFB00E67D86 /* AppDelegate.swift in Sources */,
+				30008E4A23A2808100E67D86 /* NewViewController.swift in Sources */,
 				30008E3B23A27DFB00E67D86 /* RockTheVote.xcdatamodeld in Sources */,
 				30008E3323A27DFB00E67D86 /* SceneDelegate.swift in Sources */,
 			);
@@ -298,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bishakha-Roy.RockTheVote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bishakha-Roy.RockTheVote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
